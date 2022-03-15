@@ -1,14 +1,15 @@
 import './App.css';
-import Header from './Components/Header';
+// import Header from './Components/Header';
+import Home from './Components/Home';
+import DataProvider from './Context/DataProvider';
 
 function App() {
+
   return (
-    <div className="App">
-      hello world new app here
-
-      <Header/>
-
-    </div>
+    <DataProvider>
+      <Home/>
+    </DataProvider>
+    
   );
 }
 
