@@ -1,3 +1,7 @@
+- This is the Codepen clone made using React
+- Packages used : `Codemirror`, `react-codemirror2`, `material ui` ,etc.
+- Deployed here : [codepen](https://codepen-clone-archit.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
