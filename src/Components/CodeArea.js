@@ -5,12 +5,14 @@ import { styled } from '@mui/system';
 import Editor from './Editor'
 import { DataContext } from '../Context/DataProvider';
 
+// This Container - Wraps all 3 editors in it 
+// Editor - Single editor 
+const Container = styled(Box)({
+    display: 'flex',
+    backgroundColor: '#060606',
+    height: '52vh'
+});
 function CodeArea() {
-    const Container = styled(Box)({
-        display: 'flex',
-        backgroundColor: '#060606',
-        height: '52vh'
-    });
 
     const { html, css, js, setHtml, setCss, setJs } = useContext(DataContext);
     return (

@@ -1,0 +1,6 @@
+-> Understanding Material ui components (but not that hard)
+-> Understanding codemirror package (intermediate)
+-> Editors are losing focus because of re-rendering
+    |->(Solved) : Reason was, I was making Box(Material ui), styled inside e functional component,
+                    |-> Using them outside a function component solved the problem 
+                    |-> In CodeArea, line 10-14 and in Editor, line 20-37
