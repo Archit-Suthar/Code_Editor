@@ -1,9 +1,0 @@
-packages
-material ui
-code mirror
-
-flow:
-
-header -> logo
-midArea -> 3 Editors ( Editor -> header, textArea )
-Output Area -> iFrame
