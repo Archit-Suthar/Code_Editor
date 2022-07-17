@@ -1,16 +1,19 @@
-import React from 'react'
-import CodeArea from './CodeArea'
-import Header from './Header'
-import OutputArea from './OutputArea'
+import React from "react";
+import CodeArea from "./CodeArea";
+import Header from "./Header";
+import OutputArea from "./OutputArea";
 
 function Home() {
-    return (
-    < >
-        <Header />
+  return (
+    <>
+      <Header />
+
+      <div className="global" style={{ display: "flex" }}>
         <CodeArea />
-        <OutputArea/>
-    </ >
-    )
+        <OutputArea />
+      </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;
